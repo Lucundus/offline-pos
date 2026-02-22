@@ -16,35 +16,14 @@ This project aims to help small businesses, coffee shops, and independent retail
 - **📊 Excel Import/Export:** Import thousands of products instantly via `.xlsx` or `.csv`. Export your customer balances simply.
 - **📱 Hardware Scanner Ready:** Seamlessly integrates with USB or Bluetooth Barcode scanners. Unrecognized barcodes automatically pop up the "Add Product" form and pre-fill the barcode so you can catalog items while checking people out.
 
-## Getting Started
+## Download & Run
 
-### Prerequisites
-You will need [Node.js](https://nodejs.org/) installed on your machine.
+This application is completely portable. There is no installation required!
 
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/offline-pos.git
-   cd offline-pos
-   ```
-
-2. Install the necessary dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Run the application:
-   ```bash
-   npm start
-   ```
-
-### Building for Production
-To package the application into a `.exe` installer or standalone Windows executable, use:
-```bash
-npm run build
-```
-*Note: The packaged portable application will be placed in the `/dist` directory.*
+1. Download the latest `Offline-POS-Portable.zip` from the repository (or the Releases tab).
+2. Extract the ZIP folder anywhere on your computer (like your Desktop or Documents folder).
+3. Open the folder and double-click the **Offline POS.exe** file.
+4. The system will start instantly and keep all of your data safely saved right next to the application inside an `appData` folder.
 
 ## Contributing
 Contributions are absolutely welcome! If you see something that can be improved, or want to add feature support for other hardware (like receipt printers or cash drawers), please open an issue or submit a Pull Request.

@@ -35,9 +35,11 @@
     },
     "nsis": {
       "oneClick": false,
+      "perMachine": true,
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
-      "createStartMenuShortcut": true
+      "createStartMenuShortcut": true,
+      "uninstallDisplayName": "Offline POS"
     },
     "directories": {
       "output": "dist"
